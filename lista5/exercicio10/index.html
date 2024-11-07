@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+    <script src="main.js"></script>
+    <script>
+        let modelo = prompt("Informe o modelo do veículo:");
+        let valorVeiculo = Number(prompt("Informe o valor do veículo (em reais):"));
+        let categoria = Number(prompt("Informe a categoria:\n1 - Passeio\n2 - Utilitário"));
+        
+        let resultado = calcularIpva(modelo, valorVeiculo, categoria);
+        document.write(`Modelo: ${modelo}<br>Valor do Veículo: R$ ${valorVeiculo.toFixed(2)}<br>${resultado}`);
+    </script>
+<body>
+</body>
+</html>

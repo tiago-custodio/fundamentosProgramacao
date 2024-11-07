@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9</title>
+</head>
+    <script src="main.js"></script>
+    <script>
+        let pesoTerra = Number(prompt("Informe seu peso na Terra (em kg):"));
+        let planeta = Number(prompt("Escolha o planeta:\n1 - Mercúrio\n2 - Vênus\n3 - Marte\n4 - Júpiter\n5 - Saturno\n6 - Urano"));
+        let pesoPlaneta = calcularPesoPlaneta(pesoTerra, planeta);
+        document.write(`Seu peso em ${pesoPlaneta.nome}: ${pesoPlaneta.peso.toFixed(2)} kg`);
+    </script>
+<body>
+</body>
+</html>
